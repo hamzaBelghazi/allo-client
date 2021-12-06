@@ -1,0 +1,30 @@
+$main_color: #5bc4dd;
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+.container {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(91, 196, 221, 0.35);
+  box-shadow: 0px 0px 5px 3px rgba(91, 196, 221, 0.35);
+  width: 80%;
+  .search_input {
+    border-color: $main_color;
+  }
+  .search_btn {
+    cursor: pointer;
+    margin-left: 10px;
+    color: $main_color;
+  }
+}

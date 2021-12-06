@@ -1,0 +1,14 @@
+@import "_variables";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 40px;
+  .link {
+    color: $main-color;
+  }
+  .submitBtn {
+    background-color: $main-color;
+  }
+}

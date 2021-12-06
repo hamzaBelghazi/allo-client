@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  .title {
+    color: gray;
+  }
+  .btn_pass {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid;
+    margin: 30px 20px;
+    justify-content: center;
+    color: gray;
+    border-radius: 5px;
+    .text {
+      margin-left: 10px;
+    }
+    .icon {
+      color: gray;
+      &.google {
+        color: #ea4336;
+      }
+      &.facebook {
+        color: #1576e7;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@import "_variables";
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 3px 0px 14px 6px rgba(91, 196, 221, 0.7);
+  box-shadow: 3px 0px 14px 6px rgba(91, 196, 221, 0.7);
+  padding: 20px 0px;
+  .separator {
+    height: 300px;
+    border-right: solid 1px $main-color;
+    position: relative;
+    margin: 30px 30px;
+  }
+
+  .separator::before {
+    content: "OR";
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    background-color: #fff;
+    padding: 10px 10px;
+    transform: translate(-50%, -50%);
+    color: gray;
+  }
+}
+
+.submitBtn {
+  background-color: $main-color;
+}
+.link {
+  color: $main-color;
+}
